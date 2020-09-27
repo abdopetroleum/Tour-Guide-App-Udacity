@@ -14,24 +14,12 @@ public class Location {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getDescription() {
         return description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public int getImgId() {
         return imgId;
-    }
-
-    public void setImgId(int imgId) {
-        this.imgId = imgId;
     }
 
     public boolean hasImage(){
