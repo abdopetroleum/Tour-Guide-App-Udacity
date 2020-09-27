@@ -42,4 +42,10 @@
         <item>Very good comfortable beach with wonderful Aqua park for kinds.</item>
         <item>One of the most important stadiums in Egypt. Many important matches are hold on it</item>
     </array>
+    <array name="tabs">
+        <item>Attractions</item>
+        <item>Hotels</item>
+        <item>Cafes</item>
+        <item>Restaurants</item>
+    </array>
 </resources>

@@ -6,13 +6,16 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.example.tourguideappudacity.MainActivity;
+import com.example.tourguideappudacity.R;
+
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
  * one of the sections/tabs/pages.
  */
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-    private static final String[] TAB_TITLES = new String[]{"Attractions","Hotels","Cafes","Restaurants"};
+    private static final String[] TAB_TITLES = MainActivity.context.getResources().getStringArray(R.array.tabs);
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
